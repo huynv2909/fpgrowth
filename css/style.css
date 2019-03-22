@@ -1,0 +1,366 @@
+/* Style for create receipt */
+/*  ====================================================================== */
+.container-both {
+   position: relative;
+}
+
+.receipt , .act-entry {
+   position: absolute;
+   width: 100%;
+}
+
+.act-entry, #move-left, #act-entry-title {
+   display: none;
+}
+
+.move {
+   font-size: 40px;
+   color: #e7e7e7;
+}
+
+.move button {
+   background: transparent;
+   border: none;
+}
+
+#move-left {
+   color: #5cb85c;
+}
+
+#move-left:hover {
+   color: green;
+}
+
+.row-tr {
+   border: 1px solid lightblue;
+   border-radius: 5px;
+   margin: 10px 0px;
+   position: relative;
+}
+
+h5 {
+   margin-left: 10px;
+}
+
+#act-entry-title span {
+   font-weight: bold;
+}
+
+.close {
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: none;
+}
+
+#income {
+   width: 70px;
+   background-color: #fdd600;
+   color: black;
+}
+
+.in-div {
+   background-color: #80db91;
+}
+
+.out-div {
+   background-color: #fdd600;
+}
+
+.in-div, .out-div {
+   width: 50px;
+   border-radius: 5px;
+   border: 1px solid #fff;
+   display: inline-block;
+   text-align: center;
+}
+
+.income {
+   width: 45px;
+   color: black;
+   display: inline;
+   height: 20px;
+   padding: 0;
+}
+
+/* END create receipt */
+
+.re-row {
+   cursor: pointer;
+}
+
+.bd {
+   background-color: #d9edf7;
+}
+
+table.more td {
+   width: 50%;
+}
+/* ========================================================================= */
+
+/* BEGIN Receipt Type */
+/* ========================================================================= */
+
+.deep-note {
+   font-weight: bold;
+   color: grey;
+}
+
+.edit-icon {
+   margin-right: 20px;
+   margin-top: 5px;
+   color: darkgray;
+}
+
+.edit-icon:hover {
+   color: black;
+}
+
+#act-to-add {
+   height: 34px;
+}
+
+#panel-act, #panel-receipt {
+   width: 50%;
+   float: left;
+}
+
+#panel-receipt .panel-body, #panel-act .panel-body {
+   height: 500px;
+   overflow-y: scroll;
+}
+
+.receipt-item {
+   padding: 10px 5px;
+   background-color: aliceblue;
+   border-radius: 5px;
+   margin-bottom: 5px;
+}
+
+.receipt-item:hover {
+   cursor: pointer;
+   background-color: beige !important;
+}
+
+.name-receipt {
+   font-size: 16px;
+   padding-left: 10px;
+   color: black;
+}
+
+.receipt-item .switch {
+   float: right;
+   margin-right: 10px;
+}
+
+.status-text {
+   display: block;
+   margin-top: -11px;
+   margin-left: 6px;
+   font-size: 10px;
+}
+
+.in-out {
+   margin-left: 11px;
+}
+
+.rm-col {
+   width: 10%;
+}
+
+.rm-icon:hover {
+   cursor: pointer;
+   background-color: brown;
+}
+
+.act-item {
+   padding: 10px;
+   border-radius: 5px;
+   margin: 5px 0;
+   background-color: floralwhite;
+    color: black;
+}
+
+.act-item table {
+   width: 100%;
+}
+
+.name-col {
+   width: 70%;
+}
+
+.default-col {
+   width: 20%;
+}
+
+.wait-ajax {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: rgba(255,255,255,0.5);
+   display: none;
+}
+
+.wait-ajax .success {
+   color: green;
+   display: none;
+}
+
+.pos-rel {
+   position: relative;
+}
+
+.wait-ajax i {
+   margin-left: 45%;
+   margin-top: 16%;
+}
+
+.edit-name-box {
+   width: 50%;
+}
+
+.click-show {
+   display: none;
+}
+
+
+/* ========================================================================= */
+/* END Receipt Type */
+
+/* Component */
+/* ===================================================================== */
+/* button shake */
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 23px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider {
+   background-color: #ccc;
+}
+
+.slider-cus {
+   background-color: #fdd600;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider-cus {
+  background-color: #80db91;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Checkbox larger css */
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+/* ===================================================================== */
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+   .name-receipt {
+      font-size: 15px;
+   }
+}
+
+@media only screen and (max-width: 992px) {
+   .name-receipt {
+      display: inherit;
+   }
+
+   .receipt-item .switch {
+      margin-top: 15px;
+   }
+}

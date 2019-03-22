@@ -1,0 +1,457 @@
+#page-wrapper {
+   background-color: #aee4ea;
+   padding-bottom: 20px;
+   margin-top: 35px;
+}
+
+.log-box {
+   background-color: #fff;
+   padding: 25px 0;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+
+.log-table thead {
+   background-color: #00bcd4;
+   color: #fff;
+}
+
+.info-box {
+   background-color: #fff;
+   border: 1px solid black;
+   width: 100%;
+}
+
+#voucher-box {
+   min-height: 200px;
+}
+
+#act-box {
+   min-height: 90px;
+}
+
+.date-col tr:nth-child(2n+1) td {
+   padding: 15px 0;
+}
+
+.info-box table {
+   width: 100%;
+}
+
+.info-box table tr td:nth-child(1) {
+   text-align: right;
+   color: #02909d;
+   font-style: italic;
+   padding-right: 5px;
+}
+
+.info-box .pull-left table {
+   margin: 10px 0;
+}
+
+.info-box table tr td:nth-child(2) {
+   font-weight: bold;
+   padding-left: 10px;
+}
+
+.row-25-50 col:nth-child(1) {
+   width: 40%;
+}
+
+.row-25-50 col:nth-child(2) {
+   width: 60%;
+}
+
+.row-50-50 col:nth-child(1) {
+   width: 40%;
+}
+
+.row-50-50 col:nth-child(2) {
+   width: 60%;
+}
+
+.choose-box {
+   width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+
+.alert {
+   display: none;
+}
+
+.info-box, .log-box {
+   position: relative;
+}
+
+.load-info {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   /* display: flex; */
+  align-items: center;
+  justify-content: center;
+   top: 0;
+   left: 0;
+   background-color: rgba(255,255,255,0.5);
+   display: none;
+}
+
+.load-info i {
+   margin: 0;
+}
+
+.empty-info {
+   font-weight: bold;
+   color: grey;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.voucher-row {
+   cursor: pointer;
+}
+
+.padding-0 {
+   padding: 0;
+}
+
+.centering-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* input height bootstrap */
+.height-34 {
+   height: 34px;
+   font-size: 16px;
+}
+
+.success {
+   color: #3c763d;
+}
+
+.danger {
+   color: #a94442;
+}
+
+.warning {
+   color: #f0ad4e;
+}
+
+form#type-form {
+   padding: 10px;
+   border: 1px solid beige;
+   margin-bottom: 20px;
+}
+
+.vertical-middle {
+   vertical-align: middle;
+}
+
+.active-color {
+   color: #337ab7;
+}
+
+.del-btn {
+   background-color: #fff;
+   color: #d9534f;
+}
+
+.del-btn:hover {
+   background-color: #d9534f;
+   color: #fff;
+}
+
+.edit-btn {
+   background-color: #fff;
+   color: #ffb600;
+}
+
+.edit-btn:hover {
+   background-color: #ffb600;
+   color: #fff;
+}
+
+.exchange-btn:hover, .slide-form:hover, .slide-filter:hover {
+   cursor: pointer;
+}
+
+.slide-form, .slide-filter {
+   color: grey;
+   margin-right: 15px;
+}
+
+.slide-form:hover, .slide-filter:hover {
+   color: black;
+}
+
+#total-money {
+   color: crimson;
+}
+
+#dimension-done {
+   height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.more td:nth-child(1) {
+   width: 40%;
+
+}
+
+.more td:nth-child(2) {
+   width: 60%;
+
+}
+
+.notice {
+   position: absolute;
+   padding: 5px;
+   font-size: 12px;
+   right: 0px;
+   top: -65px;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   display: none;
+}
+
+.acc-fill-table {
+   width: 100%;
+   background-color: #fff;
+}
+
+.acc-fill-table input,.acc-fill-table select {
+   width: 90%;
+   background-color: #fff;
+   border: none;
+   border-bottom: 1px dotted black;
+   margin: 5px;
+   height: 25px;
+}
+
+.acc-fill-table thead {
+   border-bottom: 1px solid #aee4ea;
+}
+
+.delete_sub, .delete_out_sub {
+   color: grey;
+}
+
+.contain-detail {
+   display: none;
+}
+
+.delete_sub:hover, .delete_out_sub:hover {
+   cursor: pointer;
+   color: red;
+}
+
+.default-type-table {
+   background-color: #fff;
+   table-layout: fixed;
+}
+
+.default-type-table select, .default-type-table input {
+   background-color: #fff;
+   border: none;
+   width: 100%;
+   min-height: 30px;
+}
+
+#remaining-amount {
+   color: dodgerblue;
+   margin: 5px 0px;
+}
+
+.role-area {
+   background-color: #fff;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   padding-bottom: 10px;
+}
+
+.table-custom {
+   width: 75%;
+   margin: auto;
+}
+
+.col-set-width col:nth-child(1) {
+   width: 70%;
+}
+
+.col-set-width col:nth-child(2) {
+   width: 30%;
+}
+
+.remind {
+   font-size: 12px;
+}
+
+.remind span {
+   font-weight: bold;
+}
+
+.report {
+   width: 100%;
+   display: block;
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+
+.report th, .fix-col-report th {
+   text-align: center;
+   padding: 5px;
+}
+
+.report td, .fix-col-report td {
+   padding: 5px;
+}
+
+.data-column {
+   min-width: 155px;
+}
+
+.report tr {
+   min-height: 50px;
+}
+
+.custom-table {
+   display: none;
+}
+
+table{
+  border-collapse:collapse;
+}
+
+thead tr th {
+   min-width: 60px;
+   background:#1ABC9C;
+}
+
+.fixed{
+  top: 50px;
+  position:fixed;
+  display:none;
+  border:none;
+  z-index: 22;
+}
+
+.fixed-bar{
+  bottom: 0;
+  position:fixed;
+  display:none;
+  border:none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+   visibility : hidden;
+}
+
+.report-height {
+   /* height: 500px; */
+}
+
+.padding-left-10 {
+   padding-left: 10px;;
+}
+
+.margin-left-15 {
+   margin-left: 15px !important;
+}
+
+.centering  {
+   display: block;
+   margin: auto;
+}
+
+.report-filter {
+   padding: 15px;
+   border: 2px solid beige;
+   border-radius: 5px;
+   margin-bottom: 5px;
+   display: none;
+}
+
+.voucher-id {
+   color: blue;
+   cursor: pointer;
+}
+
+.voucher-id:hover {
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+#revenue_gauge table {
+   margin: auto !important;
+}
+
+.input-transparent {
+   font-weight: bold;
+    background: transparent;
+    border: none;
+}
+
+.medium {
+   font-size: 23px;
+}
+
+#tax-text {
+   margin-top: 10px;
+   font-size: 12px;
+   color: firebrick;
+}
+
+#tax-text input[type=number] {
+   width: 40px;
+}
+
+.value-acc {
+   color: brown;
+}
+
+.value-acc:hover {
+   color: crimson;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+#lets-filter {
+   margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.filter-box {
+   padding: 10px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+}
+
+.catalog-table {
+   background-color: #fdf7c8;
+    font-weight: bold;
+}
+
+
+#edit-act-form {
+   border: 1px solid darkorange;
+   border-radius: 5px;
+   padding-top: 10px;
+}
+
+#remaining {
+   font-weight: bold;
+   color: crimson;
+}
+
+.info-100 {
+   width: 100%;
+}
+
+.info-30 {
+   width: 30%;
+}
